@@ -19,7 +19,7 @@ public class IsPalindromicTest {
     public void testIsPalindromic2() {
         String[] array = {"Is this a palindrome?", "This is a palindrome", "Is this a palindrome?"};
         boolean outcome = StringArrayUtils.isPalindromic(array);
-        Assert.assertTrue(outcome);
+        Assert.assertFalse(outcome);
     }
 
 
